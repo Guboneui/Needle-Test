@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NeedleFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

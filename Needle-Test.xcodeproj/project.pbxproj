@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		2C483B7B29D5892C002A3A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B7A29D5892C002A3A3E /* AppDelegate.swift */; };
 		2C483B7D29D5892C002A3A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B7C29D5892C002A3A3E /* SceneDelegate.swift */; };
-		2C483B7F29D5892C002A3A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B7E29D5892C002A3A3E /* ViewController.swift */; };
-		2C483B8229D5892C002A3A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C483B8029D5892C002A3A3E /* Main.storyboard */; };
 		2C483B8429D5892D002A3A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C483B8329D5892D002A3A3E /* Assets.xcassets */; };
 		2C483B8729D5892D002A3A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C483B8529D5892D002A3A3E /* LaunchScreen.storyboard */; };
+		2C483B9029D5897B002A3A3E /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 2C483B8F29D5897B002A3A3E /* NeedleFoundation */; };
+		2C483B9629D58AD6002A3A3E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B9529D58AD6002A3A3E /* ViewModel.swift */; };
+		2C483B9829D58B5A002A3A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B9729D58B5A002A3A3E /* ViewController.swift */; };
+		2C483B9E29D5A396002A3A3E /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483B9D29D5A396002A3A3E /* NeedleGenerated.swift */; };
+		2C483BA229D5A473002A3A3E /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483BA129D5A473002A3A3E /* RootComponent.swift */; };
+		2C483BA429D5A498002A3A3E /* PersonDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483BA329D5A498002A3A3E /* PersonDependency.swift */; };
+		2C483BA629D5A4C8002A3A3E /* RobotDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483BA529D5A4C8002A3A3E /* RobotDependency.swift */; };
+		2C483BA929D5A500002A3A3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C483BA829D5A500002A3A3E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C483B7729D5892C002A3A3E /* Needle-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Needle-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C483B7A29D5892C002A3A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C483B7C29D5892C002A3A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C483B7E29D5892C002A3A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C483B8129D5892C002A3A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C483B8329D5892D002A3A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C483B8629D5892D002A3A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C483B8829D5892D002A3A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C483B9529D58AD6002A3A3E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2C483B9729D58B5A002A3A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C483B9D29D5A396002A3A3E /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
+		2C483BA129D5A473002A3A3E /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		2C483BA329D5A498002A3A3E /* PersonDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDependency.swift; sourceTree = "<group>"; };
+		2C483BA529D5A4C8002A3A3E /* RobotDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDependency.swift; sourceTree = "<group>"; };
+		2C483BA829D5A500002A3A3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C483B9029D5897B002A3A3E /* NeedleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +70,42 @@
 			children = (
 				2C483B7A29D5892C002A3A3E /* AppDelegate.swift */,
 				2C483B7C29D5892C002A3A3E /* SceneDelegate.swift */,
-				2C483B7E29D5892C002A3A3E /* ViewController.swift */,
-				2C483B8029D5892C002A3A3E /* Main.storyboard */,
+				2C483B9D29D5A396002A3A3E /* NeedleGenerated.swift */,
+				2C483BA729D5A4E3002A3A3E /* Dependency */,
+				2C483BAA29D5A526002A3A3E /* ViewModel */,
+				2C483BAB29D5A52F002A3A3E /* View */,
 				2C483B8329D5892D002A3A3E /* Assets.xcassets */,
 				2C483B8529D5892D002A3A3E /* LaunchScreen.storyboard */,
 				2C483B8829D5892D002A3A3E /* Info.plist */,
 			);
 			path = "Needle-Test";
+			sourceTree = "<group>";
+		};
+		2C483BA729D5A4E3002A3A3E /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				2C483BA129D5A473002A3A3E /* RootComponent.swift */,
+				2C483BA329D5A498002A3A3E /* PersonDependency.swift */,
+				2C483BA529D5A4C8002A3A3E /* RobotDependency.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		2C483BAA29D5A526002A3A3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C483B9529D58AD6002A3A3E /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C483BAB29D5A52F002A3A3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C483B9729D58B5A002A3A3E /* ViewController.swift */,
+				2C483BA829D5A500002A3A3E /* DetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +118,16 @@
 				2C483B7329D5892C002A3A3E /* Sources */,
 				2C483B7429D5892C002A3A3E /* Frameworks */,
 				2C483B7529D5892C002A3A3E /* Resources */,
+				2C483B9C29D5A05F002A3A3E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Needle-Test";
+			packageProductDependencies = (
+				2C483B8F29D5897B002A3A3E /* NeedleFoundation */,
+			);
 			productName = "Needle-Test";
 			productReference = 2C483B7729D5892C002A3A3E /* Needle-Test.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 2C483B6E29D5892C002A3A3E;
+			packageReferences = (
+				2C483B8E29D5897B002A3A3E /* XCRemoteSwiftPackageReference "needle" */,
+			);
 			productRefGroup = 2C483B7829D5892C002A3A3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +175,51 @@
 			files = (
 				2C483B8729D5892D002A3A3E /* LaunchScreen.storyboard in Resources */,
 				2C483B8429D5892D002A3A3E /* Assets.xcassets in Resources */,
-				2C483B8229D5892C002A3A3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C483B9C29D5A05F002A3A3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nneedle generate Needle-Test/NeedleGenerated.swift Needle-Test/\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C483B7329D5892C002A3A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C483B7F29D5892C002A3A3E /* ViewController.swift in Sources */,
+				2C483B9829D58B5A002A3A3E /* ViewController.swift in Sources */,
+				2C483B9629D58AD6002A3A3E /* ViewModel.swift in Sources */,
+				2C483B9E29D5A396002A3A3E /* NeedleGenerated.swift in Sources */,
+				2C483BA429D5A498002A3A3E /* PersonDependency.swift in Sources */,
 				2C483B7B29D5892C002A3A3E /* AppDelegate.swift in Sources */,
+				2C483BA229D5A473002A3A3E /* RootComponent.swift in Sources */,
 				2C483B7D29D5892C002A3A3E /* SceneDelegate.swift in Sources */,
+				2C483BA929D5A500002A3A3E /* DetailViewController.swift in Sources */,
+				2C483BA629D5A4C8002A3A3E /* RobotDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C483B8029D5892C002A3A3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C483B8129D5892C002A3A3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C483B8529D5892D002A3A3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +357,7 @@
 				INFOPLIST_FILE = "Needle-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +385,7 @@
 				INFOPLIST_FILE = "Needle-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +423,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C483B8E29D5897B002A3A3E /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C483B8F29D5897B002A3A3E /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C483B8E29D5897B002A3A3E /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C483B6F29D5892C002A3A3E /* Project object */;
 }
